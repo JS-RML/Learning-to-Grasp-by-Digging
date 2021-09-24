@@ -26,7 +26,7 @@ Run following code to train the models presented in the paper, the entire traini
 
 ## 4 Test
 ### 4.1 Test in simulation
-Here we provide a testing script to reproduce the results in the paper. Our saved model will download automatically. The model is tested on three objects which are used during training.
+Here we provide a testing script to reproduce the simulation results in the paper. Our saved model will download automatically. The model is tested on three objects which are used during training.
 
     python test_in_sim.py
 
