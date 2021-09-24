@@ -12,6 +12,14 @@ Video demonstration:
 <p align = "center">
 <img src="files/hg.gif" width="640" height="360"> 
 </p>
+<p align = "center">
+<img src="files/domino.gif" width="640" height="360"> 
+<img src="files/gostone.gif" width="640" height="360"> 
+</p>
+<p align = "center">
+<img src="files/tube.gif" width="640" height="360"> 
+<img src="files/key.gif" width="640" height="360"> 
+</p>
 
 
 ## 2. Prerequisites
