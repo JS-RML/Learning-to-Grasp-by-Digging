@@ -58,7 +58,7 @@ We provide [here](https://hkustconnect-my.sharepoint.com/:u:/g/personal/czhaobb_
 
 You can train the model with this provided dataset by running:
 ```
-python trainer_step4.py
+python train_final_model.py
 ```
 
 ### 4.2 Train
