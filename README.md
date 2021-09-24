@@ -8,6 +8,12 @@ The following figure shows an overall process. Given a depth image, the robot le
 <img src="files/fg1.jpg" width="485" height="348"> 
 </p>
 
+Video demonstration:
+<p align = "center">
+<img src="files/hg.gif" width="320" height="240"> 
+</p>
+
+
 ## 2. Prerequisites
 ### 2.1 Hardware
 - [**Universal Robot UR10**](https://www.universal-robots.com/products/ur10-robot/)
