@@ -25,7 +25,7 @@ Video demonstration:
 ### 2.1 Hardware
 - [**Universal Robot UR10**](https://www.universal-robots.com/products/ur10-robot/)
 - [**Robotiq 140mm Adaptive parallel-jaw gripper**](https://robotiq.com/products/2f85-140-adaptive-robot-gripper)
-- [**RealSense Camera SR300**](https://www.intelrealsense.com/lidar-camera-l515/)
+- [**RealSense Camera L515**](https://www.intelrealsense.com/lidar-camera-l515/)
 - [**Extendable Finger**](https://github.com/HKUST-RML/extendable_finger) for realizing finger length differences during digging
 
 ### 2.2 Software
