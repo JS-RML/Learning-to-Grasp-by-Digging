@@ -69,9 +69,10 @@ python trainer.py
 
 ## 5. Test
 ### 5.1 Test in simulation
-Here we provide a testing script to reproduce the simulation results in the paper. Our saved model will download automatically. The model is tested on three objects which are used during training.
-
-    python test_in_sim.py
+We provide a testing script to evaluate our trained model in simulation. The following code running the test on three objects (domino blocks, coin-shaped short cylinder, and short triangular prisms) used during training, and report the average grasp success rates.
+```
+python test_in_sim.py
+```
 
 ### 5.2 Test in real with UR10 and Robotiq140 gripper
 Here we provide the script to test our method in a real robot. The saved models will download automatically.
