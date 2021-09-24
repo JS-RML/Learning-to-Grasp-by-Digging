@@ -35,7 +35,7 @@ The code is built with Python 3.6. Libraries are listed in [[requirements.yaml](
 ## 3. A Quick Start (Demo in Simulation)
 This demo runs with our trained model in simulation, which depicts the bin picking of domino blocks from a cluttered bin.
 <p align = "center">
-<img src="files/sim_demo.gif" width="512" height="384"> 
+<img src="files/sim_demo.gif" width="640" height="480"> 
 </p>
     
 ## 4. Training
