@@ -29,7 +29,7 @@ Video demonstration:
 - **Extendable Finger** for realizing the adjustable finger length. The CAD model can be found [here](https://hkustconnect-my.sharepoint.com/:f:/g/personal/ztong_connect_ust_hk/ElzIJrD7_SBMmZwoY-N5tyMB4VmvTVLndxHhNvtrc3OMmw?e=mrNvPl). 
 
 ### 2.2 Software
-The code is built with Python 3.6. Libraries are listed in [[requirements.yaml](https://github.com/HKUST-RML/Learning-to-Grasp-by-Digging_v2/blob/main/requirements.yaml "requirements.yaml")] and can be installed with [Anaconda](https://www.anaconda.com/) by:
+The code is built with Python 3.6. Dependencies are listed in [[requirements.yaml](https://github.com/HKUST-RML/Learning-to-Grasp-by-Digging_v2/blob/main/requirements.yaml "requirements.yaml")] and can be installed via [Anaconda](https://www.anaconda.com/) by running:
 
     conda env create -n learn_dig -f requirements.yaml
     
@@ -41,7 +41,7 @@ This demo runs our trained model in simulation, which illustrates the bin pickin
 ```
 https://github.com/HKUST-RML/Learning-to-Grasp-by-Digging_v2.git
 ```
-2. Run the script (the trained model will be downloaded automatically)
+2. Run the script (the trained model will be downloaded automatically):
 ```
     python demo.py
 ```
