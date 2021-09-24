@@ -54,7 +54,7 @@ https://github.com/HKUST-RML/Learning-to-Grasp-by-Digging_v2.git
 The entire training process is repeated 7 times in a self-supervised manner. At each time, we recollect a dataset that contains 5000 scenes (bins of objects).
 
 ### 4.1 Dataset
-We provide [here](https://hkustconnect-my.sharepoint.com/:u:/g/personal/czhaobb_connect_ust_hk/EXnUmbbMxzFOhFbPu0U12f8BZcG52E8plFfe4K3j_b_lSQ?e=mbeOMj) the dataset in our last training process. 
+We provide [here](https://hkustconnect-my.sharepoint.com/:u:/g/personal/czhaobb_connect_ust_hk/EXnUmbbMxzFOhFbPu0U12f8BZcG52E8plFfe4K3j_b_lSQ?e=mbeOMj) the dataset already collected in our last training process. 
 
 You can train the model with this provided dataset by running:
 ```
@@ -62,14 +62,14 @@ python train_last_model.py
 ```
 
 ### 4.2 Train
-If you want to create your own dataset, and start training the models from scratch, please run the following code:
+If you want to create your own dataset (currently the trained objects are domino blocks, coin-shaped short cylinder, and short triangular prisms), and start training the models from scratch, please run the following code:
 ```
 python trainer.py 
 ```
 
 ## 5. Testing
 ### 5.1 Test in Simulation
-We provide a testing script to evaluate our trained model in simulation. The following code running the test on three objects (domino blocks, coin-shaped short cylinder, and short triangular prisms), and report the average grasp success rates.
+We provide a testing script to evaluate our trained model in simulation. The following code runs the test on three trained objects, and report the average grasp success rates.
 ```
 python test_in_sim.py
 ```
@@ -83,7 +83,7 @@ Robot is controlled via [this python software](https://github.com/SintefManufact
 
 **Camera setup**
 
-To deply RealSense L515 camera,
+To deploy RealSense L515 camera,
 1. Download and install the [librealsense SDK 2.0](https://github.com/IntelRealSense/librealsense)
 2. Our camera setting can be found in ```real/640X480_L_short_default.json```
 
