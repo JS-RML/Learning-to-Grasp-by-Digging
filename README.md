@@ -20,7 +20,13 @@ The code is built with Python 3.6. Libraries are listed in [[requirements.yaml](
 
     conda  env create -n learn_dig -f requirements.yaml
 #### 2.2.2 Training
+To train the models presented in the paper:
+
+    python trainer.py 
 
 #### 2.2.2 Test in simulation
+Here we provide testing script to reproduce the results in paper. The saved models will download automatically.
+
+    python test_in_sim.py
 
 #### 2.2.3 Test in real with UR10 and Robotiq140 gripper
