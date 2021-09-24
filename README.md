@@ -78,9 +78,11 @@ python test_in_sim.py
 Here we provide the steps to test our method on a real robot.
 
 **Robot control**
+
 Robot is controlled via [this python software](https://github.com/SintefManufacturing/python-urx).
 
 **Camera setup**
+
 To deply RealSense L515 camera,
 1. Download and install the [SDK](https://github.com/IntelRealSense/librealsense)
 2. Our camera setting can be found in ```real/640X480_L_short_default.json```
