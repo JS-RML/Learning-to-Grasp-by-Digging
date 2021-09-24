@@ -31,18 +31,25 @@ Video demonstration:
 The code is built with Python 3.6. Libraries are listed in [[requirements.yaml](https://github.com/HKUST-RML/Learning-to-Grasp-by-Digging_v2/blob/main/requirements.yaml "requirements.yaml")] and can be installed with conds by:
 
     conda env create -n learn_dig -f requirements.yaml
-## 3 Training
+    
+## 3. A Quick Start (Demo in Simulation)
+This demo runs with our trained model in simulation, which depicts the bin picking of domino blocks from a cluttered bin.
+<p align = "center">
+<img src="files/sim_demo.gif" width="512" height="384"> 
+</p>
+    
+## 4. Training
 Run following code to train the models presented in the paper, the entire training process is repeated 7 times in a self-supervised manner, each time 5000 scenes are collected.
 
     python trainer.py 
 
-## 4 Test
-### 4.1 Test in simulation
+## 5. Test
+### 5.1 Test in simulation
 Here we provide a testing script to reproduce the simulation results in the paper. Our saved model will download automatically. The model is tested on three objects which are used during training.
 
     python test_in_sim.py
 
-### 4.2 Test in real with UR10 and Robotiq140 gripper
+### 5.2 Test in real with UR10 and Robotiq140 gripper
 Here we provide the script to test our method in a real robot. The saved models will download automatically.
 
     cd real
