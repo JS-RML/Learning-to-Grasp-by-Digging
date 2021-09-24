@@ -67,7 +67,7 @@ If you want to create your own dataset, and start training the models from scrat
 python trainer.py 
 ```
 
-## 5. Test
+## 5. Testing
 ### 5.1 Test in Simulation
 We provide a testing script to evaluate our trained model in simulation. The following code running the test on three objects (domino blocks, coin-shaped short cylinder, and short triangular prisms), and report the average grasp success rates.
 ```
@@ -75,8 +75,17 @@ python test_in_sim.py
 ```
 
 ### 5.2 Test on Real Robot (UR10)
+**Robot control**
+Robot is controlled via [this python software](https://github.com/SintefManufacturing/python-urx).
+
+**Camera setup**
+
+
 Here we provide the script to test our method on a real robot.
 ```
 cd real
 python test_in_real.py
 ```
+
+## Maintenance 
+For any technical issues, please contact: Chao Zhao (czhaobb@connect.ust.hk), Zhekai Tong (ztong@connect.ust.hk).
