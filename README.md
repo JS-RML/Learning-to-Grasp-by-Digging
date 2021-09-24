@@ -75,13 +75,17 @@ python test_in_sim.py
 ```
 
 ### 5.2 Test on Real Robot (UR10)
+Here we provide the steps to test our method on a real robot.
+
 **Robot control**
 Robot is controlled via [this python software](https://github.com/SintefManufacturing/python-urx).
 
 **Camera setup**
+To deply RealSense L515 camera,
+1. Download and install the [SDK](https://github.com/IntelRealSense/librealsense)
+2. 
 
-
-Here we provide the script to test our method on a real robot.
+Then run:
 ```
 cd real
 python test_in_real.py
