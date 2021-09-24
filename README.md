@@ -10,7 +10,7 @@ The following figure shows an overall process. Given a depth image, the robot le
 
 Video demonstration:
 <p align = "center">
-<img src="files/hg.gif" width="320" height="180"> 
+<img src="files/hg.gif" width="640" height="360"> 
 </p>
 
 
