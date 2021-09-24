@@ -41,7 +41,7 @@ This demo runs with our trained model in simulation, which depicts the bin picki
 ```
 https://github.com/HKUST-RML/Learning-to-Grasp-by-Digging_v2.git
 ```
-2. Run the script (the trained model will be download automatically)
+2. Run the script (the trained model will be downloaded automatically)
 ```
     python demo.py
 ```
