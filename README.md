@@ -84,7 +84,7 @@ Robot is controlled via [this python software](https://github.com/SintefManufact
 **Camera setup**
 
 To deply RealSense L515 camera,
-1. Download and install the [SDK](https://github.com/IntelRealSense/librealsense)
+1. Download and install the [librealsense SDK 2.0](https://github.com/IntelRealSense/librealsense)
 2. Our camera setting can be found in ```real/640X480_L_short_default.json```
 
 **Start testing**
