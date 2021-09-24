@@ -27,12 +27,12 @@ Run following code to train the models presented in the paper, the entire traini
 
 ## 4 Test
 ### 4.1 Test in simulation
-Here we provide testing script to reproduce the results in paper. Our saved model will download automatically. The model is tested on three objects which are used during training.  
+Here we provide a testing script to reproduce the results in the paper. Our saved model will download automatically. The model is tested on three objects which are used during training.
 
     python test_in_sim.py
 
 ### 4.2 Test in real with UR10 and Robotiq140 gripper
-Here we provide an example script to test our method in real robot. The saved models will download automatically.
+Here we provide an example script to test our method in a real robot. The saved models will download automatically.
 
     cd real
     python test_in_real.py
