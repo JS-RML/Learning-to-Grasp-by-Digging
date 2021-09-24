@@ -119,7 +119,7 @@ def first_genrate_depth_image(floder_id):
     curr_r = p.startStateLogging(p.STATE_LOGGING_VIDEO_MP4,"video_logs/fir_task_vid_" + str(floder_id) + ".mp4") 
     #build env_sim
     sim.build_e()
-    #渲染图像
+    #
     rgbImg, depthImg, segImg = sim.render()
     img_d, float_depth, poke_pos_map = sim.after_render()
     img_d[np.where(segImg==0)] = 255
