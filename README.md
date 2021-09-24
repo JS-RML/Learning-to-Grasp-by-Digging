@@ -2,7 +2,7 @@
 # Learning to Pick by Digging: Data-Driven Dig-Grasping
 
 ## 1. Overview
-In this work, we propose a learning-based method for bin picking, which aims at singulating and simultaneously picking the objects one by one from a random clutter. It illustrates a way of picking through a physical interaction between the robot's gripper and object clutter, which is essential to successful singulation (and subsequent picking), realized as a digging operation along a straight line. A gripper designed for this technique is capable of changing relative digit lengths such that the object being digged will not collide with the other finger. This repository provides the PyTorch implementation for training and testing the interactive picking strategy.
+In this work, we propose a learning-based method for bin picking, which aims at singulating and simultaneously picking the objects one by one from a random clutter. It illustrates a way of picking through a physical interaction between the robot's gripper and object clutter, which is essential to successful singulation (and subsequent picking), realized as a digging operation along a straight line. A gripper designed for this technique is capable of changing relative digit lengths such that the object being digged will not collide with the other finger. This repository provides the PyTorch implementation for training and testing this interactive picking strategy.
 
 The following figure shows an overall process. Given a depth image, the robot learns a way of interaction (encoded in  the  score  map)  with  the  target  object  to  pick  up. The object (blue  block)  is rotated by the finger pushing it down to the clutter.
 <p align = "center">
