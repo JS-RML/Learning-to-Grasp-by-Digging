@@ -16,10 +16,9 @@ The following figure shows an overall process. Given a depth image, the robot le
 - [**Extendable Finger**](https://github.com/HKUST-RML/extendable_finger) for realizing finger length differences during digging
 
 ### 2.2 Software
-#### 2.2.1 Enviroment requirements
 The code is built with Python 3.6. Libraries are listed in [[requirements.yaml](https://github.com/HKUST-RML/Learning-to-Grasp-by-Digging_v2/blob/main/requirements.yaml "requirements.yaml")] and can be installed with conds by:
 
-    conda  env create -n learn_dig -f requirements.yaml
+    conda env create -n learn_dig -f requirements.yaml
 ## 3 Training
 Run following code to train the models presented in the paper, the entire training process is repeated 7 times in a self-supervised manner, each time 5000 scenes are collected.
 
