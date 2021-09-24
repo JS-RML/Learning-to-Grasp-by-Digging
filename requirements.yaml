@@ -1,4 +1,4 @@
-name: f0419
+name: dig_env
 channels:
   - conda-forge
   - defaults
@@ -199,4 +199,4 @@ dependencies:
     - werkzeug==1.0.1
     - widgetsnbextension==3.5.1
     - yarl==1.6.3
-prefix: C:\Users\chaoz\anaconda3\envs\f0419
+prefix: C:\Users\ri\anaconda3\envs\dig_env
