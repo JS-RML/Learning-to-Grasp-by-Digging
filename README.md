@@ -51,8 +51,10 @@ https://github.com/HKUST-RML/Learning-to-Grasp-by-Digging_v2.git
 </p>
     
 ## 4. Training
+The entire training process is repeated 7 times in a self-supervised manner. At each time, we recollect a dataset that contains 5000 scenes (bins of objects).
 
 ### 4.1 Dataset
+We provide [here](https://hkustconnect-my.sharepoint.com/:u:/g/personal/czhaobb_connect_ust_hk/EXnUmbbMxzFOhFbPu0U12f8BZcG52E8plFfe4K3j_b_lSQ?e=mbeOMj) the dataset in our last training process.
 link: https://hkustconnect-my.sharepoint.com/:u:/g/personal/czhaobb_connect_ust_hk/EXnUmbbMxzFOhFbPu0U12f8BZcG52E8plFfe4K3j_b_lSQ?e=mbeOMj
 
 ### 4.2 Train
