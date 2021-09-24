@@ -21,7 +21,7 @@ The code is built with Python 3.6. Libraries are listed in [[requirements.yaml](
 
     conda  env create -n learn_dig -f requirements.yaml
 ## 3 Training
-To train the models presented in the paper:
+Run following code to train the models presented in the paper, the entire training process is repeated 7 times in a self-supervised manner, each time 5000 scenes are collected.
 
     python trainer.py 
 
