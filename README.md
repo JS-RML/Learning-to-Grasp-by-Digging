@@ -11,3 +11,12 @@ In this work, we propsoe a learning framework for a manipulation technique to bi
 - [**Extendable Finger**](https://github.com/HKUST-RML/extendable_finger) for realizing finger length differences during digging
 
 ### 2.2 Software
+#### 2.2.1 Prerequisites
+The code is built with Python 3.6. Libraries are listed in [[requirements.yaml](https://github.com/HKUST-RML/Learning-to-Grasp-by-Digging_v2/blob/main/requirements.yaml "requirements.yaml")] and can be installed with conds by:
+
+    conda  env create -n learn_dig -f requirements.yaml
+#### 2.2.2 Training
+
+#### 2.2.2 Test in simulation
+
+#### 2.2.3 Test in real with UR10 and Robotiq140 gripper
