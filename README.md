@@ -85,7 +85,7 @@ To deply RealSense L515 camera,
 1. Download and install the [SDK](https://github.com/IntelRealSense/librealsense)
 2. Our camera setting can be found in ```real/640X480_L_short_default.json```
 
-Then run:
+Then run the following code to start testing:
 ```
 cd real
 python test_in_real.py
