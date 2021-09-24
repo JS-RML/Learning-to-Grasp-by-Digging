@@ -34,9 +34,18 @@ The code is built with Python 3.6. Libraries are listed in [[requirements.yaml](
     conda env create -n learn_dig -f requirements.yaml
     
 ## 3. A Quick Start (Demo in Simulation)
-This demo runs with our trained model in simulation, which depicts the bin picking of domino blocks from a cluttered bin.
+This demo runs with our trained model (download automatically) in simulation, which depicts the bin picking of domino blocks from a cluttered bin.
 
+**Instruction**
+1. Download this repository:
+```
+
+```
+3. 
+Run
+```
     python demo.py
+```
 
 <p align = "center">
 <img src="files/sim_demo.gif" width="640" height="480"> 
