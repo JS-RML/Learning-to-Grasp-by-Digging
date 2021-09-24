@@ -53,13 +53,14 @@ https://github.com/HKUST-RML/Learning-to-Grasp-by-Digging_v2.git
 ## 4. Training
 
 ### 4.1 Dataset
-link:
+link: https://hkustconnect-my.sharepoint.com/:u:/g/personal/czhaobb_connect_ust_hk/EXnUmbbMxzFOhFbPu0U12f8BZcG52E8plFfe4K3j_b_lSQ?e=mbeOMj
 
 ### 4.2 Train
 
 Run following code to train the models presented in the paper, the entire training process is repeated 7 times in a self-supervised manner, each time 5000 scenes are collected.
 
     python trainer.py 
+
 
 ## 5. Test
 ### 5.1 Test in simulation
