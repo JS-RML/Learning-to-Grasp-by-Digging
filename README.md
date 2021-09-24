@@ -13,12 +13,12 @@ Video demonstration:
 <img src="files/hg.gif" width="640" height="360"> 
 </p>
 <p align = "center">
-<img src="files/domino.gif" width="640" height="360"> 
-<img src="files/gostone.gif" width="640" height="360"> 
+<img src="files/domino.gif" width="320" height="180"> 
+<img src="files/gostone.gif" width="320" height="180"> 
 </p>
 <p align = "center">
-<img src="files/tube.gif" width="640" height="360"> 
-<img src="files/key.gif" width="640" height="360"> 
+<img src="files/tube.gif" width="320" height="180"> 
+<img src="files/key.gif" width="320" height="180"> 
 </p>
 
 
