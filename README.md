@@ -32,3 +32,7 @@ Here we provide testing script to reproduce the results in paper. The saved mode
     python test_in_sim.py
 
 ### 4.2 Test in real with UR10 and Robotiq140 gripper
+Here we provide an example script to test our method in real robot.
+
+    cd real
+    python test_in_real.py
