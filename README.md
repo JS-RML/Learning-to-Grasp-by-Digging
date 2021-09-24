@@ -17,6 +17,8 @@ Video demonstration:
 <img src="files/key.gif" width="320" height="180"> 
 </p>
 
+**Full Video** can be seen from this [link](https://youtu.be/3zgnn5pVX9c).
+
 
 ## 2. Prerequisites
 ### 2.1 Hardware
