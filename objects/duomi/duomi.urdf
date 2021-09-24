@@ -1,0 +1,30 @@
+<?xml version="0.0" ?>
+<robot name="cube.urdf">
+  <link name="baseLink">
+    <contact>
+      <lateral_friction value="0.3"/>
+      <stiffness value="10000.0"/>
+    </contact>
+    <inertial>
+      <origin rpy="0 0 0" xyz="6.9389E-18 0 -6.9389E-18"/>
+       <mass value="0.00616"/>
+       <inertia ixx="2.3049E-07" ixy="-1.2104E-22" ixz="2.946E-24" iyy="1.019E-06" iyz="-9.936E-24" izz="1.1991E-06"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+            <mesh filename="duomi.STL" scale="1 1 1"/>
+      </geometry>
+       <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+	 	<mesh filename="duomi.STL" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
+
