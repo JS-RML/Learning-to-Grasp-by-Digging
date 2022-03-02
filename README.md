@@ -3,7 +3,7 @@
 
 **Paper** can be seen from this [link](https://drive.google.com/file/d/1Gt1lGLKViwA0VUo-j-2dNF4c3S8ATnv_/view?usp=sharing).
 
-If you use PyBullet in your research, please cite it like this:
+If you use our work in your research, please cite it like this:
 
 ```
 @inproceedings{learntodig2022,
